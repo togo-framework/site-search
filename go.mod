@@ -1,4 +1,4 @@
-module github.com/fadymondy/search
+module github.com/togo-framework/site-search
 
 go 1.26.4
 

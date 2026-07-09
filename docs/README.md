@@ -2,13 +2,13 @@
 
 Bilingual Postgres full-text site search: to_tsvector('simple') + prefix tsquery for match-as-you-type + ILIKE fallback, ranked across registered content tables.
 
-- **Source:** https://github.com/fadymondy/search
+- **Source:** https://github.com/togo-framework/site-search
 - **Reference app:** https://fadymondy.com
 
 ## Install
 
 ```bash
-togo install fadymondy/search
+togo install togo-framework/site-search
 ```
 
 The plugin self-registers on blank-import (no manual wiring). See the top-level
